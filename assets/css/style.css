@@ -1,0 +1,24 @@
+ /*-----------------------------------------------------------------NAVBAR----*/
+    .navbar {
+      margin: 0!important;
+  
+   
+    }
+
+    
+    
+ /*---------------------------------------------------------------CAROUSEL----*/
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%;
+      min-height:200px;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
