@@ -1,10 +1,27 @@
  /*-----------------------------------------------------------------NAVBAR----*/
     .navbar {
       margin: 0!important;
-  
-   
-    }
 
+      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+
+      background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+    .navbar-brand {
+        color:white!important;
+        
+    }
+    .navbar-brand:hover{
+        color:red!important;
+    }
+    #myNavbar ul li a {
+        color:white!important;
+    }
+    #myNavbar ul li a:hover {
+        color:red!important;
+    }
     
     
  /*---------------------------------------------------------------CAROUSEL----*/
@@ -27,4 +44,56 @@
     font-size: 35px!important;
     color: blue!important;
 }
- 
+ /*-----------------------------------------------------------------PRICES----*/
+
+
+ .prices {
+     /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+
+
+ /*-----------------------------------------------------------Contact Form----*/
+.contactUs {
+    /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+
+ background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+
+ /*-------------------------------------------------------------Google Map----*/
+.findMe {
+    /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+  /*----------------------------------------------------------------FOOTER----*/
+  .mainFooter{
+      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+
+      background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
