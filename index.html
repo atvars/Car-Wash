@@ -26,8 +26,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Prices</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#prices">Prices</a></li>
+        <li><a href="#contactUs">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -69,33 +69,68 @@
     </div>
 </section>
 
- <section class="prices">
+ <section id="prices">
     <div class="container text-center">                  
         <h3>What We Do For Price</h3><br>
         <div class="row">
             <div class="col-sm-4">
-                <h4>Plan-1</h4>
-                <p>hhhhhh</p>
+                <ul>
+              <button id="plan1Button" type="button" class="btn btn-primary
+               btn-lg">Plan-1</button>
+               <div id="info">
+                <h6>Hand Wash & Dry</h6>
+                    <li>Hand wash</li>
+                    <li>Wheels cleaned</li>
+                    <li>Arches Cleaned</li>
+                    <li>Tyre shine</li>
+                    <li>Dor panels cleaned</li>
+                    <li>Windows cleaned</li>
+                    <li>Air freshener</li>
+                    <p><strong>From £6.00 
+                        4x4 £8.00</strong> </p>
+                </div>
+                </ul>
             </div>
 
-            <div class="col-sm-4"> 
-                <h4>Plan-2</h4>
-                <p>hhhhhh</p>
+           <div class="col-sm-4">
+                <ul>
+              <button id="plan2Button" type="button" class="btn btn-primary
+               btn-lg">Plan-2</button>
+               <div id="info2">
+                <h6>Mini Valet</h6>
+                    <li>Includes Plan-1</li>
+                    <li>Vacum</li>
+                    <li>Dashboard Polish</li>
+                    <li>Bumper Shine</li>
+                    <p><strong>From £12.00 
+                        4x4 £16.00</strong> </p>
+                </div>
+                </ul>
             </div>
 
             <div class="col-sm-4">
-                <h4>Plan-3</h4>
+                <ul>
+              <button id="plan3Button" type="button" class="btn btn-primary
+               btn-lg">Plan-3</button>
+               <div id="info3">
+                <h6>Wash & Polish</h6>
+                    <li>Includes Plan-1</li>
+                    <li>Includes Plan-2</li>
+                    <li>Full body polish</li>
+                    <p><strong>From £25.00 
+                        4x4 £35.00</strong> </p>
+                </div>
+                </ul>
             </div>
-
             <div class="col-sm-12">
-                <h4>Full Vallet</h4>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Full Valet</button>
                 <h6>For full vallet please book apoitment</h6>
             </div>
         </div>
     </div><br>
 </section> 
 
-<section class="contactUs">
+<section id="contactUs">
     <form>
         <div class="contact-section">
 			<div class="container">
@@ -161,5 +196,9 @@
     </div>
 </footer>
 
+<script src="assets/js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.min.js" integrity="sha512-hSiRgmBWJ4Up/wGCaolTZ6HaOgkzTwS2Z4vQWY9jqDK8Tov+GzQKy0PcgIYoOi1WtZ3+hWNkgSDMyGaMGb4ybg==" crossorigin="anonymous"></script>
 </body>
 </html>
+
