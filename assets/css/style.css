@@ -181,6 +181,9 @@ color:blue;
     font-weight: 500;
     color:blue;
 }
+.maps{
+    padding-bottom: 50px;
+}
 
 #findMe {
     /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
@@ -191,7 +194,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 }
 
-
+div#map {min-height: 360px;}
 
 
 
@@ -204,3 +207,13 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+  .social{
+      color: white;
+  }
+  .socialLink{
+      color: white;
+  }
+.socialLink:hover{
+    color: gray;
+}
+  
