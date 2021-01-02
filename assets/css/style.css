@@ -60,6 +60,9 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 
 
  }
+p.times{
+    margin-bottom: 30px!important;
+}
 
  #info:hover{
     color: blue;
@@ -164,7 +167,22 @@ margin-left: 35%;
   }
 
  /*-------------------------------------------------------------Google Map----*/
-.findMe {
+.icon {
+color:blue;
+}
+.aboutUs{
+    padding-bottom: 30px;
+}
+#findMe{
+    padding-top:50px;
+}
+.contactinfo{
+     font-size: 20px;
+    font-weight: 500;
+    color:blue;
+}
+
+#findMe {
     /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
 
   background: #ECE9E6;  /* fallback for old browsers */
