@@ -17,8 +17,6 @@
 
 
     $(document).ready(function(){
-        $("#info2").toggle();
-        $("#info3").toggle();
         $("#info4").toggle();
         $("#contactUs").hide();
     });

@@ -216,6 +216,9 @@ h3.text-center{
 .avatarpic{
     width:90px;
 }
+.fa.checked{
+    color:orange;
+}
 
 
   /*----------------------------------------------------------------FOOTER----*/
