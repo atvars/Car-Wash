@@ -10,10 +10,9 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
-<script type="text/javascript">
+<script>
    (function(){
       emailjs.init("user_ueGfaTWLgZ6tXwX5PgufA");
    })();
@@ -52,16 +51,12 @@
          <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="assets/pictures/carwash2.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <h3></h3>
-                </div>      
+                <div class="carousel-caption"></div>      
             </div>
 
             <div class="item">
                 <img src="assets/pictures/carwash1.png" alt="Image">
-                <div class="carousel-caption">
-                    <h3></h3>
-                </div>      
+                <div class="carousel-caption"></div>      
             </div>
         </div>
 
@@ -82,13 +77,14 @@
     <div class="container text-center">                  
         <h3>WE ARE OPEN 7 DAYS A WEEK</h3>
         <p class="times">OPEN 08:00 - 18:00</p><br>
-        <div class="row">
-            <div class="col-sm-3">
-                <ul>
+        <div class="row text-center">
+            <div class="col-sm-3 text-center">
               <button id="plan1Button" type="button" class="btn btn-primary
                btn-lg">Plan-1</button>
                <div id="info">
+                    
                 <h6><strong>Hand Wash & Dry</strong></h6>
+                     <ul>
                     <li>Hand wash</li>
                     <li>Wheels cleaned</li>
                     <li>Arches Cleaned</li>
@@ -96,49 +92,51 @@
                     <li>Dor panels</li>
                     <li>Windows cleaned</li>
                     <li>Air freshener</li>
+                     </ul>
                     <p><strong>From £6.00 
                         4x4 £8.00</strong> </p>
+                    
                 </div>
-                </ul>
             </div>
-
-           <div class="col-sm-3">
-                <ul>
+            <div class="text-center">
+           <div class="col-sm-3 text-center">
               <button id="plan2Button" type="button" class="btn btn-primary
                btn-lg">Plan-2</button>
                <div id="info2">
-                <h6><strong>Mini Valet</strong></h6>
+                    <h6><strong>Mini Valet</strong></h6>
+                    <ul>
                     <li>Includes Plan-1</li>
                     <li>Vacum</li>
                     <li>Dashboard Polish</li>
                     <li>Bumper Shine</li>
+                    </ul>
                     <p><strong>From £12.00 
                         4x4 £16.00</strong> </p>
                 </div>
-                </ul>
+            </div>
             </div>
 
-            <div class="col-sm-3">
-                <ul>
+            <div class="col-sm-3 text-center">
               <button id="plan3Button" type="button" class="btn btn-primary
                btn-lg">Plan-3</button>
                <div id="info3">
                 <h6><strong>Wash & Polish</strong></h6>
+                <ul>
                     <li>Includes Plan-1</li>
                     <li>Includes Plan-2</li>
                     <li>Full body polish</li>
+                </ul>
                     <p><strong>From £25.00 
                         4x4 £35.00</strong> </p>
                 </div>
-                </ul>
             </div>
 
-            <div class="col-sm-3">
-                <ul>
+            <div class="col-sm-3 text-center">
               <button id="plan4Button" type="button" class="btn btn-primary
                btn-lg">Full Valet</button>
                <div id="info4">
                 <h6><strong>Full Valet</strong></h6>
+                <ul>
                     <li>Includes Plan-1</li>
                     <li>Includes Plan-2</li>
                     <li>Includes Plan-3</li>
@@ -147,11 +145,11 @@
                     <li>Boot cleaning</li>
                     <li>Carpet cleaning</li>
                     <li>Engine and engine bay cleaning</li>
+                    </ul>
                     <p><strong>From £60.00 
                         4x4 £70.00</strong> </p>
                         <p><mark><strong class="invite">If you want full valet please fill out the form below, and we will get back to you with available date and time slots.</strong></mark></p>
                 </div>
-                </ul>
             </div>
         </div>
     </div><br>
@@ -164,12 +162,12 @@
 				
 				<div id="form" class="col-md-12 form-line">
 			  		<div class="form-group">
-			  			<label for="exampleInputUsername">Name</label>
-					    <input type="text" name="name" class="form-control" id="" placeholder=" Enter Your Name">
+			  			<label for="#exampleInputUsername">Name</label>
+					    <input type="text" name="name" class="form-control" placeholder=" Enter Your Name">
                     </div>
                           
 				  	<div class="form-group">
-					    <label for="exampleInputEmail">Email</label>
+					    <label for="#exampleInputEmail">Email</label>
 					    <input type="email" name="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Your Email">
                     </div>	
                           
@@ -180,7 +178,7 @@
 
                     <div class="form-group">
 			  			<label for="exampleInputUsername">Car</label>
-					    <input type="text" name="car" class="form-control" id="" placeholder=" Your Car Make and Model">
+					    <input type="text" name="car" class="form-control" placeholder=" Your Car Make and Model">
                     </div>
 
                     <div class="form-group">
