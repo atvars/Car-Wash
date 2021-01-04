@@ -97,6 +97,10 @@ background: linear-gradient(to right, #1565C0, #b92b27)!important; /* W3C, IE 10
 color:red!important;
 }
 
+ul{
+    padding-left: 0;
+}
+
 #info4 .invite{
     color: red!important;
     font-size: 12px;
