@@ -21,5 +21,36 @@
         $("#contactUs").hide();
     });
 
+/* Hover for Plan info */
+$("#info").mouseenter(function(){
+$(this).css("color", "blue");
+});
+$("#info").mouseleave(function(){
+$(this).css("color", "black");
+});
+$("#info2").mouseenter(function(){
+$(this).css("color", "blue");
+});
+$("#info2").mouseleave(function(){
+$(this).css("color", "black");
+});
+$("#info3").mouseenter(function(){
+$(this).css("color", "blue");
+});
+$("#info3").mouseleave(function(){
+$(this).css("color", "black");
+});
+$("#info4").mouseenter(function(){
+$(this).css("color", "blue");
+});
+$("#info4").mouseleave(function(){
+$(this).css("color", "black");
+});
 
-   
+/* form send button hover */
+$("#sendButton").mouseenter(function(){
+$(this).css("color", "red");
+});
+$("#sendButton").mouseleave(function(){
+$(this).css("color", "white");
+});
