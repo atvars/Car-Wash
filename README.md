@@ -2,7 +2,10 @@ Code institute template
 
 bootstrap templates
 
-https://uigradients.com/#EveningSunshine for css code for background
+https://uigradients.com/#EveningSunshine for css code for 
+background
+
+https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/ game 
 
 # Your Project's Name
 
