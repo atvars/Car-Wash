@@ -1,3 +1,4 @@
+/* Fallowed Code Institute video from Rossie */
 function sendMail(contactForm) {
     emailjs.send("carwash", "fullValet", {
         "from_name": contactForm.name.value,

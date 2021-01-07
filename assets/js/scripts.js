@@ -1,3 +1,4 @@
+ /* setting up wich plans to show and hide */
  $("#plan1Button").on("click",function() {
         $("#info").toggle(500);
     });
@@ -54,3 +55,19 @@ $(this).css("color", "red");
 $("#sendButton").mouseleave(function(){
 $(this).css("color", "white");
 });
+
+/* increasing avatar pic when hovered */
+$("img.avatarpic").mouseenter(function(){
+    $(this).animate({
+      opacity: "0.5",
+      height: "150px",
+      width: "150px"
+    });
+  });
+
+/*  hovering and changing colors */
+  $("#prices h3").addClass("h3hover");
+  $("#prices .times").addClass("h3hover");
+  $("#testamonials h3").addClass("h3hover");
+  $("#findMe h3").addClass("h3hover");
+  $("#findMe .contactinfo").addClass("h3hover");
