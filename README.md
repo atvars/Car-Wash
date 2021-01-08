@@ -93,6 +93,8 @@ Checked all my JS code had no issues what so ever.
 
 On console in dev tools shows no errors.
 
+Email thru emailjs API is delivered to my gmail.
+
 Tried my website in diferent web browsers all worked very good.
 Checked all screan sizes on my smart tv, on my laptom, on my tablet and on my phone all works very good and looks super good.
 
