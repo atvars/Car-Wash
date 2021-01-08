@@ -66,7 +66,7 @@ $("img.avatarpic").mouseenter(function(){
     });
   });
 
-/*  hovering and changing colors */
+/*  hovering and changing colors in website*/
   $("#prices h3").addClass("h3hover");
   $("#prices .times").addClass("h3hover");
   $("#testamonials h3").addClass("h3hover");

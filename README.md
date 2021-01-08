@@ -1,90 +1,130 @@
-Code institute template
-
-bootstrap templates
-
-https://uigradients.com/#EveningSunshine for css code for 
-background
-
-https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/ game 
-
 # Car Wash
+demo here:
+atvars.github.io/car-wash/.
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
- 
+This website is about hand car wash. This website shows for clients that they can trust them, they will always recieve high standart job. Clients can find all the options about car care plans what they can get. They see in details what they get in each plan and for what price. Also there is option to book full valet in particular date and time. All that is prooven by other custumers in testimonial section. 
+
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+From user side - what they expect simple inuvative website, where they can easy find all the information about car wash.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+So I created website which is very simple and easy to navigate thru and understant what is what. There is two picture carousel with hand car washing pictures so client unserstands staright away he/she is in right place if they looking for hand car wash. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+On the next section as they scoll down basically they get all info what they need:
+<li>When its open?</li> 
+<li>How long its open?</li> 
+<li>What you do for how much?</li>
+
+As the big part main feature is that client can book full valet for his car from website, from his home.He dont need to get in car and drive all the way to car wash to find out when he can come. This will be why this car wash will atract more custumers - becouse we care about our custumers and their time and that is what we show in our web page.
+
+Next section on web page you find very important part of that kind of bussines - testimonials. Here our custumers can make sure that they are in best place for their car. On this section they can gain this trust factor.
+
+And last but not least is where and how to find us and our contact details.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+Navigation very understandable and easy for custumers.
+
+Carousel of two pic. Bouth pic gives you trust that you are on coret path to find what you are looking for.
+
+Car wash plans with info and prices, also car wash opening times and days.
+
+Testimonials to gain trust factor in our custumers.
+
+How and where to find us and how to contact us.
+
+Footer is just sosial media links where you can also fallow us.
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<li>Two tone bacgrounds for better atractive look.</li>
+<li>Thru out the site used mostly blu and red color so it looks nice.</li>
+<li>Made site very interactive so custumer loves to be here.</li>
+<li>Togled buttons with showing and fading out plan info.</li>
+<li>Howered color changing info so its atracts user and he pays attention.</li>
+<li>Option to book full valet by filing out simple form with your 1) Name 2) Email address 3) Mobile nubmer 4) Car make and model and press send button. We text you back dates and times when we can clean your car.
+<li>Testimonials important aspect in bussines if you want to gain more clients.</li>
+<li>Contact info how and where to find us with also built in google maps so client can see where we are on the map.</li>
+<li>Simple very atractive footer wit social links where clients can also find us and fallow us</li>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Tried to make site as interactive and atractive as posible without puuting inside too much.
+
 
 ### Features Left to Implement
-- Another feature idea
+Another future idea for our car wash is mobile car wash. Clients also will be able to book mobile car wash by filling out form we will confirm date and time.
+And somebody will come with van to your home to wash your car with same all 4 plans and options.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+https://github.com/Code-Institute-Org/gitpod-full-template
+Code Institute provided template to us for better and easier coding.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+
+**HTML5** for building entire website skeleton
+
+**CSS3** for making it look better
+
+**JQuery** (https://jquery.com) 
+to simplify DOM manipulation.
+
+**Bootstrap** Used framework for Grid leyout and easy mobile responsivnes.
+https://getbootstrap.com/
+
+**javaScript** To make web site interactive and to conect Google Maps API and Emailjs API. https://www.javascript.com/
+
+And all that was put together in **GitPod** ide.
+and stored in **GitHub** pages.
+
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Main goal was to create simple easy understandable intuitive website which I think I manage to do. For that I showed site to few of my friends and they said its very understandable and easy to navigate thru the site. Was happy with the answer.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Checked web site thru html validator https://validator.w3.org/ Had few bugs most of them was same mistake i created div as a ul child. so fixed that. Nothing major that made me happy. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Checked CSS code https://jigsaw.w3.org/css-validator/
+Shows lot of warning about my two color bacground.
+And shows one eror wth Bootstrap cdn. Spent like hours to this bug couldnt figure it out. 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Checked my JS code http://beautifytools.com/javascript-validator.php
+Checked all my JS code had no issues what so ever.
+
+On console in dev tools shows no errors.
+
+Tried my website in diferent web browsers all worked very good.
+Checked all screan sizes on my smart tv, on my laptom, on my tablet and on my phone all works very good and looks super good.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+In Slack in review nobody said nothing bad everething worked for everybody.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I opened up Gitpod to first ensure my branch was up to date, and my working tree was clean.
+Then searched for GitHub and logged into my account.
+I clicked on the title of my repository "atvars/Car Wash"
+From here, I selected the "Settings" option, and scrolled the page down to the section titled 'GitHub Pages'.
+Under the "Source" option, I selected the master branch, and clicked "Save".
+I refreshed the page, and the GitHub Pages link populated under the "Github Pages" section of the Settings page.
+I waited a couple of minutes, and I clicked the link to view my deployed website.
+The website had deployed successfully.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+GitHub repository https://github.com/atvars/Car-Wash
+Live site atvars.github.io/car-wash/.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+<li>Thanks to Code Institute for full template.</li>
+<li>Used w3school.com for finding some information when something didnt work as it should and courusel with two photos code snipet</li>
+<li>Thanks to Code institute Interactive frontend module where we put all together and implement API fallow thru videos</li>
+<li>https://uigradients.com for css code snipet for two color background</li>
+
 
 ### Media
-- The photos used in this site were obtained from ...
+avatar photos in testimonials was taken from https://www.google.lv/search?q=avatar%20pic&tbm=isch&tbs=rimg:CUKu4Zmw3YJuYYhivdaGS1qm&hl=lv&sa=X&ved=0CB0QuIIBahcKEwjYpIHqqYvuAhUAAAAAHQAAAAAQDA&biw=1440&bih=737
 
-### Acknowledgements
+two pictures in courusel was taken from https://www.theguardian.com/world/2018/jul/16/true-human-cost-5-pound-hand-car-wash-modern-slavery
 
-- I received inspiration for this project from X

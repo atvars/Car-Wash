@@ -2,7 +2,8 @@
     .navbar {
       margin: 0!important;
 
-      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+      /* Tahnks for bacground code snipet
+       to https://uigradients.com */
 
       background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
@@ -48,8 +49,8 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
     color: blue!important;
 }
  /*-----------------------------------------------------------------PRICES----*/
-/* Tahnks for bacground code snipet 
-     to https://uigradients.com/#EveningSunshine  */
+ /* Tahnks for bacground code snipet
+  to https://uigradients.com */
 
  #prices {
   background: #ECE9E6;  
@@ -77,8 +78,8 @@ p.times{
  }
 
  .btn-primary{
-      /* Tahnks for bacground code snipet to
-       https://uigradients.com/#EveningSunshine  */
+      /* Tahnks for bacground code snipet 
+      to https://uigradients.com */
 
       background: #b92b27!important;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27)!important;  /* Chrome 10-25, Safari 5.1-6 */
@@ -114,7 +115,8 @@ p.times{
 
  /*-----------------------------------------------------------Contact Form----*/
 #contactUs {
-    /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+    /* Tahnks for bacground code snipet 
+    to https://uigradients.com */
 
  background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -128,7 +130,8 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 
   #sendButton{
-      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+      /* Tahnks for bacground code snipet 
+      to https://uigradients.com */
 
       background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
@@ -183,7 +186,8 @@ color:blue;
 }
 
 #findMe {
-    /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+    /* Tahnks for bacground code snipet 
+    to https://uigradients.com */
 
   background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -194,7 +198,8 @@ div#map {min-height: 360px;}
 
   /*-----------------------------------------------------------Testamonial----*/
 #testamonials{
-      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+      /* Tahnks for bacground code snipet 
+      to https://uigradients.com */
 
   background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -215,7 +220,8 @@ h3.text-center{
 
   /*----------------------------------------------------------------FOOTER----*/
   .mainFooter{
-      /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
+      /* Tahnks for bacground code snipet 
+      to https://uigradients.com */
 
       background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
