@@ -1,4 +1,10 @@
- /* setting up wich plans to show and hide */
+ /* setting up wich plans to show and hide when page is loaded */
+ $(document).ready(function(){
+        $("#info4").toggle();
+        $("#contactUs").hide();
+    });
+
+/* Plan info disapiers and apiers when button is presed */
  $("#plan1Button").on("click",function() {
         $("#info").toggle(500);
     });
@@ -16,11 +22,6 @@
         $("#contactUs").toggle(500);
     });
 
-
-    $(document).ready(function(){
-        $("#info4").toggle();
-        $("#contactUs").hide();
-    });
 
 /* Hover for Plan info */
 $("#info").mouseenter(function(){
@@ -48,7 +49,7 @@ $("#info4").mouseleave(function(){
 $(this).css("color", "black");
 });
 
-/* form send button hover */
+/* form email send button hover */
 $("#sendButton").mouseenter(function(){
 $(this).css("color", "red");
 });
@@ -56,7 +57,7 @@ $("#sendButton").mouseleave(function(){
 $(this).css("color", "white");
 });
 
-/* increasing avatar pic when hovered */
+/* increasing avatar pic in testimonials when hovered on picture */
 $("img.avatarpic").mouseenter(function(){
     $(this).animate({
       opacity: "0.5",

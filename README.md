@@ -7,7 +7,7 @@ background
 
 https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/ game 
 
-# Your Project's Name
+# Car Wash
 
 One or two paragraphs providing an overview of your project.
 

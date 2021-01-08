@@ -11,12 +11,12 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
 
     .navbar-brand {
         color:white!important;
-        
     }
     
     .navbar-brand:hover{
         color:red!important;
     }
+
     #myNavbar ul li a {
         color:white!important;
     }
@@ -26,6 +26,7 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
     }
     
  /*---------------------------------------------------------------CAROUSEL----*/
+ /* code looked at w3schools.com */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
@@ -35,6 +36,7 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
       width: 100%;
       min-height:200px;
   }
+  
   @media (max-width: 600px) {
     .carousel-caption {
       display: none; 
@@ -46,21 +48,18 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
     color: blue!important;
 }
  /*-----------------------------------------------------------------PRICES----*/
-
-
- #prices {
-     /* Tahnks for bacground code snipet 
+/* Tahnks for bacground code snipet 
      to https://uigradients.com/#EveningSunshine  */
 
+ #prices {
   background: #ECE9E6;  
   /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
  }
+
 p.times{
     margin-bottom: 30px!important;
 }
@@ -85,6 +84,7 @@ p.times{
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27)!important;  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1565C0, #b92b27)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
+
 .btn-primary:hover{
 color:red!important;
 }
@@ -119,9 +119,8 @@ p.times{
  background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
+
 #form{
     max-width: 50%;
     margin-left: 25%;
@@ -164,17 +163,21 @@ margin-left: 35%;
 .icon {
 color:blue;
 }
+
 .aboutUs{
     padding-bottom: 30px;
 }
+
 #findMe{
     padding-top:50px;
 }
+
 .contactinfo{
      font-size: 20px;
     font-weight: 500;
     color:blue;
 }
+
 .maps{
     padding-bottom: 50px;
 }
@@ -185,21 +188,17 @@ color:blue;
   background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 div#map {min-height: 360px;}
 
-
-
-  /*------------------------------------------------------------Testamonial----*/
+  /*-----------------------------------------------------------Testamonial----*/
 #testamonials{
       /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
 
   background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 padding-top: 50px;
 }
 
@@ -214,7 +213,6 @@ h3.text-center{
     color:orange;
 }
 
-
   /*----------------------------------------------------------------FOOTER----*/
   .mainFooter{
       /* Tahnks for bacground code snipet to https://uigradients.com/#EveningSunshine  */
@@ -223,12 +221,15 @@ h3.text-center{
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
   .social{
       color: white;
   }
+
   .socialLink{
       color: white;
   }
+
 .socialLink:hover{
     color: gray;
 }
