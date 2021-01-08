@@ -1,5 +1,5 @@
 # Car Wash
-demo here:
+
 atvars.github.io/car-wash/.
 
 
